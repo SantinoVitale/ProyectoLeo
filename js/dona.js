@@ -9,6 +9,6 @@ fetch("../json/DB.json")
         let consultaDona = document.querySelector(".donacion")
         let contenedorDona = document.createElement("div")
         contenedorDona.innerHTML = `<h2 class="h2Dona"> Plata donada: </h2>
-            <p> ${suma} </p>`
+            <p class="h2Dona"> ${suma} </p>`
         consultaDona.appendChild(contenedorDona);
     }, 2000))
